@@ -1,0 +1,48 @@
+POST {{host}}/api/v1/admin/products/list/2
+Content-Type: application/json
+
+###
+GET {{host}}/home/bla
+Content-Type: application/json
+
+###
+POST{{host}}/api/v1/open/admin/registration
+Content-Type: application/json
+
+{
+  "username":"username",
+  "email":"email@gmail.com",
+  "password":"password",
+  "repassword":"password",
+  "privatePolice":true
+
+}
+
+###
+POST{{host}}/api/v1/open/admin/login
+Content-Type: application/json
+
+{
+"username": "username",
+  "password": "password"
+}
+
+###
+POST{{host}}/api/v1/open/registration
+Content-Type: application/json
+
+{
+  "fullName":"fullName",
+  "company":"company",
+  "email":"emaill@gmail.com",
+  "phone":123456789
+}
+
+###
+
+POST{{host}}/api/v1/open/products/list/skami/1
+Content-Type: application/json
+
+###
+GET{{host}}/api/v1/open/amindi/mtskheta
+Content-Type: application/json

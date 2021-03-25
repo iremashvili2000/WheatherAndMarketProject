@@ -1,0 +1,45 @@
+POST{{host}}/api/v1/admin/products/list/skami/1
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoidXNlcm5hbWUiLCJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYxNjU5MTM0MywiZXhwIjoxNjE2NTk0OTQzfQ.VSl04iZHYCKztTvoZKx_jk6p_G9mazRGqV3hDrUktXg
+
+
+###
+POST{{host}}/api/v1/admin/company/list
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoidXNlcm5hbWUiLCJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYxNjUyNTM1NiwiZXhwIjoxNjE2NTI4OTU2fQ.kTZ4fFqO_8qxRzr2WoH0e5xQY0BqGBG4cY3qPE0SL-U
+
+
+###
+POST{{host}}/api/v1/admin/create/atribut
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoidXNlcm5hbWUiLCJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYxNjU4MDE2MywiZXhwIjoxNjE2NTgzNzYzfQ.e8HNag1X0IkIFuTjooGgxDDjZz3l3uWcLh3AlAki6qk
+
+{
+  "name":"name",
+  "value":"value",
+  "type":"type"
+
+}
+
+###
+POST{{host}}/api/v1/admin/procuct/add/atribut
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoidXNlcm5hbWUiLCJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYxNjU4MDE2MywiZXhwIjoxNjE2NTgzNzYzfQ.e8HNag1X0IkIFuTjooGgxDDjZz3l3uWcLh3AlAki6qk
+
+{
+  "productName":"skami",
+  "atributName":"name"
+
+}
+
+
+###
+DELETE{{host}}/api/v1/admin/delete/order/emaill@gmail.com
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoidXNlcm5hbWUiLCJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYxNjU4MDE2MywiZXhwIjoxNjE2NTgzNzYzfQ.e8HNag1X0IkIFuTjooGgxDDjZz3l3uWcLh3AlAki6qk
+
+
+###
+POST{{host}}/api/v1/admin/delete/product/skami
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoidXNlcm5hbWUiLCJzdWIiOiJ1c2VybmFtZSIsImlhdCI6MTYxNjU4NTczMiwiZXhwIjoxNjE2NTg5MzMyfQ.zaAdSHhNqmnCeQCffThtUmH46xdwQYLZ6ctqQjdL6Mo
